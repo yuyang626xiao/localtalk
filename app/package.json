@@ -1,0 +1,33 @@
+{
+  "name": "localtalk",
+  "productName": "LocalTalk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first realtime speech translation desktop app (Electron + Python sidecar + sokuji_native/ggml)",
+  "main": "dist-electron/main.js",
+  "homepage": "./",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ricky0123/vad-web": "0.0.30",
+    "@sapphi-red/web-noise-suppressor": "^0.3.5",
+    "lucide-react": "^1.47.0",
+    "onnxruntime-web": "1.26.0-dev.20260416-b7804b056c",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "electron": "^40.8.5",
+    "typescript": "^5.8.3",
+    "vite": "^8.1.5",
+    "vite-plugin-electron": "^1.1.0"
+  }
+}

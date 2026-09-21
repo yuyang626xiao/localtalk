@@ -1,0 +1,22 @@
+# Python sidecar envs (created by setup scripts; never commit)
+sidecar/.venv/
+sidecar/.python-path
+__pycache__/
+*.py[cod]
+
+# Node / build artifacts (app/.gitignore covers app/, this is the repo-root backstop)
+node_modules/
+dist/
+dist-electron/
+out/
+*.log
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local scratch
+*.bak
