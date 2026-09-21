@@ -1,10 +1,6 @@
 # LocalTalk — 本地实时语音翻译桌面应用
 
 > **100% offline real-time speech translation on your own machine.**
-> Electron + React frontend, Python sidecar inference (ASR → LLM translation → TTS, all
-> local ggml/GPU via Vulkan). Ported from [Sokuji](https://github.com/kizuna-ai-lab/sokuji)'s
-> open-source local-inference stack (AGPL-3.0). No cloud AI API is ever called —
-> the only network traffic is the one-time model download from HuggingFace.
 
 ![screenshot](docs/screenshot.png)
 <!-- 放一张主界面截图：左侧设置面板 + 中间对话流。没有截图前删掉这行。 -->
