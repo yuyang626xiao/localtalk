@@ -106,19 +106,12 @@ npm run dev        # vite + 自动拉起 Electron 窗口
 | TTS 没声音 | 该家族需要音色（克隆制模型）；换 MOSS-TTS-Nano / Supertonic 等免音色家族 |
 | 模型下载失败/慢 | 见上面「中国大陆网络」的 `HF_ENDPOINT` 镜像 |
 
-## 许可证与出处（重要）
+## 许可证与出处
 
-- 本项目基于 [Sokuji](https://github.com/kizuna-ai-lab/sokuji)（**AGPL-3.0**，© Kizuna AI Lab）
-  的本地推理链路移植：`sidecar/sokuji_sidecar/` 原样复制，`app/src/lib/native/`、
-  VAD/降噪 worker、`electron/sidecar-host.js` 等为移植/改写——相关文件头部均保留出处注释。
-- 因此**整个项目以 AGPL-3.0 发布**（见 [LICENSE](LICENSE)）。你可以自由使用、修改；
-  一旦**分发**修改版或提供网络服务，必须以 AGPL-3.0 开源完整对应源码。
-- `sokuji_native` 引擎以 Sokuji 官方 GitHub Releases 发布的预编译 wheel 安装
-  （`sidecar/requirements.txt` 按平台 pin 了 URL），无需本地编译 C++。
-- 模型权重各随其上游许可证（Qwen / Hunyuan / Cohere / Supertonic 等），由你在
-  应用内下载时遵循各模型页条款。
+- 本项目基于 Sokuji（**AGPL-3.0**，© Kizuna AI Lab）的本地推理链路
+- 模型权重各随其上游许可证（Qwen / Hunyuan / Cohere / Supertonic 等），由你在应用内下载时遵循各模型页条款。
 
-本项目与 Sokuji 官方无关，是个人本地化改造；欢迎提 Issue，但请按「爱用者自助」心态对待。
+本项目与 Sokuji 官方无关，是个人本地化改造
 
 ## Acknowledgements
 
